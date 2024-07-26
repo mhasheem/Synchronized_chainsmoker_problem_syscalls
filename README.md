@@ -1,12 +1,5 @@
-# Synchronized_chainsmoker_problem_syscalls
- System calls added through recompilation of Ubuntu to solve chainsmoker problem. 
-Here's a concise README file for your GitHub repository that covers the essential aspects of your project:
-
----
 
 # Synchronized Chainsmoker Problem
-
-## Overview
 
 This project implements a solution to the synchronized chainsmoker problem, a classic concurrency problem in operating systems. The problem involves multiple threads (smokers) and an agent, where the challenge lies in synchronizing their actions to avoid deadlocks and ensure correct operation. The solution integrates custom syscalls into the Ubuntu Linux kernel to facilitate communication between the agent and the smokers, using semaphores for synchronization.
 
